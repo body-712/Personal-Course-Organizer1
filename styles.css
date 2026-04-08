@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f4f4f4;
+	animation: fadeIn 0.2s ease-in;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+	margin:0 auto;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+	font-size: 18px;
+    padding: 10px 15px;          /* يخليها مربعات */
+    background-color: #444;      /* لون المربع */
+    border-radius: 8px;          /* حواف ناعمة */
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: yellow;
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-links a.active {/*دي لما تبقي مختار الصفحه الي انت فيها*/
+    background-color: blue;
+	max-height:30px;
+    color: white;
+    border-radius: 5px;
+	text-decoration-line:underline;
+
+}
+.welcome{
+	padding:20px 10px;
+	background:#f3e5f5;
+	margin-bottom:20px;
+	border-radius:8px;
+}
+h1{
+color:purple}
+.intro{
+	margin-left:10px;
+}
+.div{/*دي الكونينر الي فيها التلت بوكسات*/
+	display:flex;/*بيخليهم جنب بعض*/
+	gap:20px;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.My,.Add,.cont{/*دول البوكسات التلاته */
+	margin:0;
+	background:white;
+	width:300px;
+	border-radius:8px;
+	padding:8px;
+	gap:20px
+}
+/*صفحه التواصل */
+.information{/*دول بوكسات المعلومات*/
+	background:white;
+	width:400px;
+	height:150px;
+	border-radius:10px;
+	padding:10px;
+	margin-bottom:10px;
+	margin:auto
+}
+pre{/*الكلام الي جوا البوكس*/
+	padding:10px;
+	margin:0;
+}
+.sec-info{
+	display:flex;
+	gap:20px;
+	flex-wrap: wrap;
+
+}
+/*صفحه الكورسات*/
+table{
+	background:white;
+	border-radius:10px;
+	margin:auto
+}
+th,td{
+	padding:30px
+}
+#h{
+	padding:10px 15px;
+}
+/*صفحه اضافه الكورسات*/
+.sec-form{
+		margin:auto;
+		width:75%;
+}
+form{
+	margin:auto;
+	background:white;
+	padding:15px;
+    border-radius: 15px;
+}
+input{
+	background:#f4f4f4;
+	width: 100%;        /* عشان ياخد عرض الـ div اللي هو جواه */
+    padding: 13px;      /* ده اللي "بينفخ" الـ input ويكبر مساحته من جوه */
+    font-size: 15px;    /* عشان الكلام اللي بيتكتب جوه يبقى كبير وواضح */
+    border-radius: 8px; /*اف تبقى ناعمة مش مدببة */
+    box-sizing: border-box
+}
+label{
+	font-size:18px
+}
+.submit{
+	width:25%
+}
+.note{
+	height:20%;
+}
+.div-h2{
+	margin:10px;
+}
+
+
+
+
+
+
+footer{/*الجزء الاخير ف الصفحه*/
+	text-align:center;
+	text-decoration-line:underline;
+}
+.container-footer-content{
+	background:white;
+	padding:10px;
+	margin-top:20px;
+	border-radius:15px;
+}
