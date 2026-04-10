@@ -18,6 +18,12 @@ header {
     padding: 15px;
 	margin:0 auto;
 }
+.div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /*هتخليها ف التلفون تتعديل */
+}
 .nav-links {
     list-style: none;
     display: flex;
