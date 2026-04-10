@@ -147,12 +147,6 @@ label{
 .div-h2{
 	margin:10px;
 }
-
-
-
-
-
-
 footer{/*الجزء الاخير ف الصفحه*/
 	text-align:center;
 	text-decoration-line:underline;
@@ -163,4 +157,29 @@ footer{/*الجزء الاخير ف الصفحه*/
 	padding:10px;
 	margin-top:20px;
 	border-radius:15px;
+}
+@media (max-width: 768px) {/*هتخليه ع الموبيل احسن*/
+    
+    .header-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    .nav-links li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links a {
+        display: block;
+        width: 100%;
+    }
 }
