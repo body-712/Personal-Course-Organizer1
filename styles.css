@@ -156,6 +156,7 @@ label{
 footer{/*الجزء الاخير ف الصفحه*/
 	text-align:center;
 	text-decoration-line:underline;
+	margin-top:50px;
 }
 .container-footer-content{
 	background:white;
